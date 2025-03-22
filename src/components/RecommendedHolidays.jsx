@@ -28,7 +28,7 @@ const RecommendedHolidays = () => {
         },
         {
             id:2,
-            name:"Palawan",
+            name:"Palawa",
             price:789,
             stay:"4D3N",
             img:"https://th.bing.com/th/id/OIP.FzRo_q5GVinvO7R3gjMigwHaFj?w=271&h=203&c=7&r=0&o=5&pid=1.7"
