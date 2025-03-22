@@ -1,0 +1,70 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+
+
+.navItems{
+  margin-left: 20px;
+}
+
+
+.cards div:hover {
+  animation-name: cardanimation;
+  animation-duration: 2s;
+
+}
+
+
+.footer{
+  background-image: linear-gradient(to right, #0B5BA8, #299BD8);
+}
+
+.rightSideFooter p{
+  color: white;
+  margin: 0px;
+}
+
+
+.headerImg{
+  background-image: url(./src/assets/SearchSection.png);
+  background-size: cover;
+}
+
+.contactFormBg{
+  background-image: url(./src/assets/ContactFormBg.png);
+  background-size: cover;
+}
+
+
+@keyframes cardanimation {
+  0% {}
+
+  20% {
+      transform: scale(1.1);
+  }
+}
+
+
+
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
